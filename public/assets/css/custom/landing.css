@@ -1,0 +1,127 @@
+body {
+  background-color: #ededed;
+  margin: 0;
+  padding: 0;
+  font-family: Nunito;
+  height: 100%;
+  overflow: hidden; /* 가로 및 세로 스크롤 방지 */
+}
+
+#landing-page {
+  height: 100%;
+  overflow-y: scroll; /* 페이지가 스크롤 가능하도록 허용 */
+}
+
+#landing-page .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+#landing-page section {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  /* padding: 50px 20px; 여백 추가로 스크롤시 답답함 완화 */
+  box-sizing: border-box;
+}
+
+#landing-page .scroll-indicator {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+/* 스크롤 스냅 전체 설정 */
+#landing-page {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+p {
+  font-size: 22px;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+.section-subtext {
+  font-size: 1.4rem;
+  color: #6c757d;
+  line-height: 1.8;
+}
+
+/* FAQ 스타일 커스터마이징 */
+.faq-header {
+  border: none;
+  padding: 1.3rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  /* font-weight: bold; */
+  color: #000;
+  display: flex;
+  align-items: center;
+  background: none;
+}
+
+.faq-header::before {
+  content: "Q";
+  background-color: #02af66;
+  color: white;
+  font-size: 1.4rem;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.faq-body {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+  background-color: #fff;
+}
+
+.accordion-button {
+  box-shadow: none !important;
+}
+
+.accordion-header {
+  border-bottom: 1px solid #979797;
+}
+
+/* Top Button 기본 스타일 */
+#topButton {
+  position: fixed; /* 고정 위치 */
+  bottom: 60px; /* 하단 간격 */
+  right: 60px; /* 오른쪽 간격 */
+  z-index: 1000; /* 다른 요소 위에 표시 */
+  background-color: #02af66; /* 버튼 배경색 */
+  color: white; /* 아이콘 색상 */
+  border: none;
+  border-radius: 50%; /* 동그란 버튼 */
+  width: 72px;
+  height: 72px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}

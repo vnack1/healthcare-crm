@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/phpunit.xml.dist" tests="6" assertions="8" errors="0" failures="0" skipped="0" time="0.064717">
+    <testsuite name="App" tests="6" assertions="8" errors="0" failures="0" skipped="0" time="0.064717">
+      <testsuite name="UserModelTest" file="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/tests/Models/UserModelTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.019950">
+        <testcase name="testCanGetAllUsers" file="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/tests/Models/UserModelTest.php" line="8" class="UserModelTest" classname="UserModelTest" assertions="1" time="0.019950"/>
+      </testsuite>
+      <testsuite name="ExampleDatabaseTest" file="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/tests/database/ExampleDatabaseTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.038449">
+        <testcase name="testModelFindAll" file="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/tests/database/ExampleDatabaseTest.php" line="17" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="1" time="0.029050"/>
+        <testcase name="testSoftDeleteLeavesRow" file="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/tests/database/ExampleDatabaseTest.php" line="28" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="2" time="0.009398"/>
+      </testsuite>
+      <testsuite name="ExampleSessionTest" file="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/tests/session/ExampleSessionTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.000534">
+        <testcase name="testSessionSimple" file="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/tests/session/ExampleSessionTest.php" line="11" class="ExampleSessionTest" classname="ExampleSessionTest" assertions="1" time="0.000534"/>
+      </testsuite>
+      <testsuite name="HealthTest" file="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/tests/unit/HealthTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.005785">
+        <testcase name="testIsDefinedAppPath" file="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/tests/unit/HealthTest.php" line="13" class="HealthTest" classname="HealthTest" assertions="1" time="0.000471"/>
+        <testcase name="testBaseUrlHasBeenSet" file="/Users/jangjiwon/Desktop/_dev/_workspace/_php/project-root/tests/unit/HealthTest.php" line="18" class="HealthTest" classname="HealthTest" assertions="2" time="0.005314"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

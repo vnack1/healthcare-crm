@@ -1,0 +1,255 @@
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  appearance: textfield; /* 표준 속성 */
+  -moz-appearance: textfield; /* Firefox 구 버전 호환 */
+}
+
+/* 회원리스트 데이터 테이블 간격 조절 */
+#table1 {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#table1 th:nth-child(1) {
+  width: 60px;
+}
+#table1 th:nth-child(2) {
+  width: 80px;
+}
+#table1 th:nth-child(3) {
+  width: 150px;
+}
+#table1 th:nth-child(4) {
+  width: 90px;
+}
+#table1 th:nth-child(5) {
+  width: 100px;
+}
+#table1 th:nth-child(6) {
+  width: 100px;
+}
+#table1 th:nth-child(7) {
+  width: 100px;
+}
+
+/* 대리점리스트 데이터 테이블 간격 조절 */
+#table2 {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#table2 th:nth-child(1) {
+  width: 80px;
+}
+#table2 th:nth-child(2) {
+  width: 80px;
+}
+#table2 th:nth-child(3) {
+  width: 130px;
+}
+#table2 th:nth-child(4) {
+  width: 100px;
+}
+#table2 th:nth-child(5) {
+  width: 200px;
+}
+#table2 th:nth-child(6) {
+  width: 180px;
+}
+#table2 th:nth-child(7) {
+  width: 160px;
+}
+#table2 th:nth-child(8) {
+  width: 170px;
+}
+#table2 th:nth-child(9) {
+  width: 220px;
+}
+
+/* 공지사항 리스트 간격 조절 */
+#notice_table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#notice_table th:nth-child(1) {
+  width: 200px;
+}
+#notice_table th:nth-child(3) {
+  width: 300px;
+}
+
+/* notice a태그 호버할때 변화 */
+.text-start a:hover {
+  text-decoration: underline;
+}
+
+/* 공지 디테일 글 내용부분 크기 조절 및 효과 */
+.notice-content {
+  min-height: 550px;
+  line-height: 1.6;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;
+  overflow-y: auto; /* 세로 스크롤 추가 */
+}
+
+/* quill editor 크기 조절 */
+#full {
+  height: 550px;
+}
+
+/* 메모 길어지면 ..으로 표시 */
+.ellipsis-text {
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+  overflow: hidden; /* 넘치는 텍스트를 숨김 */
+  text-overflow: ellipsis; /* 넘칠 경우 '...' 표시 */
+}
+
+/* 멜로시라 회원리스트 데이터 테이블 간격 조절 */
+#m-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#m-table th:nth-child(1) {
+  width: 50px;
+}
+#m-table th:nth-child(2) {
+  width: 60px;
+}
+#m-table th:nth-child(3) {
+  width: 110px;
+}
+#m-table th:nth-child(4) {
+  width: 70px;
+}
+#m-table th:nth-child(5) {
+  width: 140px;
+}
+#m-table th:nth-child(6) {
+  width: 160px;
+}
+#m-table th:nth-child(7) {
+  width: 140px;
+}
+#m-table th:nth-child(8) {
+  width: 110px;
+}
+#m-table th:nth-child(9) {
+  width: 100px;
+}
+#m-table th:nth-child(10) {
+  width: 100px;
+}
+
+/* 멜로시라 회원 디테일 테이블 */
+.m-detail-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.m-detail-table th,
+.m-detail-table td {
+  border-left: 1px solid #eee;
+  text-align: center;
+  padding: 8px;
+  border-bottom: none;
+}
+
+.m-detail-table th:first-child,
+.m-detail-table td:first-child {
+  border-left: none;
+}
+
+/* 멜로시라 회원 디테일 테이블 */
+.m-member-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* 멜로시라 회원리스트 상세 테이블 간격 조절 */
+#m-detail-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#m-detail-table th:nth-child(1) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(2) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(3) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(4) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(5) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(6) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(7) {
+  width: 120px;
+}
+
+/* i see you 회차(하단) 상세 테이블 가격 조절 */
+#s-detail-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#s-detail-table th:nth-child(1) {
+  width: 110px;
+}
+#s-detail-table th:nth-child(2) {
+  width: 180px;
+}
+#s-detail-table th:nth-child(3) {
+  width: 180px;
+}
+#s-detail-table th:nth-child(4) {
+  width: 180px;
+}
+
+/* i see you 회원(상단) 정보 테이블 가격 조절 */
+.s-member-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+.s-member-table th:nth-child(1) {
+  width: 150px;
+}
+.s-member-table th:nth-child(2) {
+  width: 120px;
+}
+.s-member-table th:nth-child(3) {
+  width: 170px;
+}
+.s-member-table th:nth-child(4) {
+  width: 200px;
+}
+.s-member-table th:nth-child(5) {
+  width: 120px;
+}
+
+@media screen and (max-width: 1199px) {
+  .page-content {
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-content {
+    padding: 40px 40px 40px 40px;
+  }
+}

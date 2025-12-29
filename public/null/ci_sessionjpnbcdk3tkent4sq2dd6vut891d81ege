@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1732234901;user_idx|s:2:"21";user_id|s:10:"superadmin";member_code|s:13:"SUPERADMIN001";user_name|s:16:"슈퍼 관리자";grade|i:0;logged_in|b:1;_ci_previous_url|s:53:"http://localhost:8080/user-management/agent/agentlist";error|s:49:"대리점은 총판만 등록이 가능합니다.";__ci_vars|a:1:{s:5:"error";s:3:"old";}

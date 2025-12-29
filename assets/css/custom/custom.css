@@ -1,0 +1,681 @@
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  appearance: textfield; /* 표준 속성 */
+  -moz-appearance: textfield; /* Firefox 구 버전 호환 */
+}
+
+/* 회원리스트 데이터 테이블 간격 조절 */
+.super-admin {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+.super-admin th:nth-child(1) {
+  width: 50px;
+}
+.super-admin th:nth-child(2) {
+  width: 60px;
+}
+.super-admin th:nth-child(3) {
+  width: 190px;
+}
+.super-admin th:nth-child(4) {
+  width: 110px;
+}
+.super-admin th:nth-child(5) {
+  width: 120px;
+}
+.super-admin th:nth-child(6) {
+  width: 80px;
+}
+.super-admin th:nth-child(7) {
+  width: 150px;
+}
+.super-admin th:nth-child(8) {
+  width: 140px;
+}
+.super-admin th:nth-child(9) {
+  width: 150px;
+}
+.super-admin th:nth-child(10) {
+  width: 140px;
+}
+
+/* Regular User: 멤버코드 제외 */
+table.regular-user {
+  table-layout: fixed;
+  width: 100%;
+}
+
+table.regular-user th:nth-child(1) {
+  width: 60px;
+}
+table.regular-user th:nth-child(2) {
+  width: 80px;
+}
+table.regular-user th:nth-child(3) {
+  width: 110px;
+} /* 총판 */
+table.regular-user th:nth-child(4) {
+  width: 110px;
+}
+table.regular-user th:nth-child(5) {
+  width: 90px;
+}
+table.regular-user th:nth-child(6) {
+  width: 150px;
+}
+table.regular-user th:nth-child(7) {
+  width: 140px;
+}
+table.regular-user th:nth-child(8) {
+  width: 140px;
+}
+
+/* 대리점리스트 데이터 테이블 간격 조절 */
+.super-admin2 {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+.super-admin2 th:nth-child(1) {
+  width: 40px;
+}
+.super-admin2 th:nth-child(2) {
+  width: 50px;
+}
+.super-admin2 th:nth-child(3) {
+  width: 180px;
+}
+.super-admin2 th:nth-child(4) {
+  width: 110px;
+}
+.super-admin2 th:nth-child(5) {
+  width: 110px;
+}
+.super-admin2 th:nth-child(6) {
+  width: 80px;
+}
+.super-admin2 th:nth-child(7) {
+  width: 120px;
+}
+.super-admin2 th:nth-child(8) {
+  width: 130px;
+}
+.super-admin2 th:nth-child(9) {
+  width: 130px;
+}
+.super-admin2 th:nth-child(10) {
+  width: 140px;
+}
+
+/* Regular User: 멤버코드 제외 */
+table.regular-user2 {
+  table-layout: fixed;
+  width: 100%;
+}
+
+table.regular-user2 th:nth-child(1) {
+  width: 60px;
+}
+table.regular-user2 th:nth-child(2) {
+  width: 70px;
+}
+table.regular-user2 th:nth-child(3) {
+  width: 100px;
+} /* 총판 */
+table.regular-user2 th:nth-child(4) {
+  width: 90px;
+}
+table.regular-user2 th:nth-child(5) {
+  width: 120px;
+}
+table.regular-user2 th:nth-child(6) {
+  width: 140px;
+}
+table.regular-user2 th:nth-child(7) {
+  width: 140px;
+}
+table.regular-user2 th:nth-child(8) {
+  width: 150px;
+}
+/* table.regular-user2 th:nth-child(9) {
+  width: 140px;
+} */
+
+/* 회원리스트 데이터 테이블 간격 조절 */
+#table2 {
+  table-layout: fixed;
+  width: 100%;
+}
+
+#table2 th:nth-child(1) {
+  width: 60px;
+}
+#table2 th:nth-child(2) {
+  width: 80px;
+}
+#table2 th:nth-child(3) {
+  width: 110px;
+}
+#table2 th:nth-child(4) {
+  width: 100px;
+}
+#table2 th:nth-child(5) {
+  width: 140px;
+}
+#table2 th:nth-child(6) {
+  width: 140px;
+}
+#table2 th:nth-child(7) {
+  width: 140px;
+}
+#table2 th:nth-child(8) {
+  width: 140px;
+}
+
+/* 회원리스트 데이터 테이블 간격 조절 */
+#table3 {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#table3 th:nth-child(1) {
+  width: 150px;
+}
+#table3 th:nth-child(2) {
+  width: 150px;
+}
+#table3 th:nth-child(3) {
+  width: 140px;
+}
+#table3 th:nth-child(4) {
+  width: 150px;
+}
+#table3 th:nth-child(5) {
+  width: 150px;
+}
+#table3 th:nth-child(6) {
+  width: 150px;
+}
+#table3 th:nth-child(7) {
+  width: 150px;
+}
+
+/* 특정 테이블(#table3)에만 스타일 적용 */
+#table3 td.hover-highlight {
+  transition: background-color 0.3s ease; /* 부드러운 색상 전환 */
+  background-color: #d1e7dd; /* 원하는 색상 */
+}
+
+/* 공지사항 리스트 간격 조절 */
+#notice_table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#notice_table th:nth-child(1) {
+  width: 200px;
+}
+#notice_table th:nth-child(3) {
+  width: 300px;
+}
+
+/* notice a태그 호버할때 변화 */
+.text-start a:hover {
+  text-decoration: underline;
+}
+
+/* 공지 디테일 글 내용부분 크기 조절 및 효과 */
+.notice-content {
+  min-height: 550px;
+  line-height: 1.6;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;
+  overflow-y: auto; /* 세로 스크롤 추가 */
+}
+
+/* quill editor 크기 조절 */
+#full {
+  height: 550px;
+}
+
+/* 메모 길어지면 ..으로 표시 */
+.ellipsis-text {
+  white-space: nowrap; /* 텍스트를 한 줄로 표시 */
+  overflow: hidden; /* 넘치는 텍스트를 숨김 */
+  text-overflow: ellipsis; /* 넘칠 경우 '...' 표시 */
+}
+
+/* 멜로시라 회원리스트 데이터 테이블 간격 조절 */
+#m-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#m-table th:nth-child(1) {
+  width: 70px;
+}
+#m-table th:nth-child(2) {
+  width: 70px;
+}
+#m-table th:nth-child(3) {
+  width: 120px;
+}
+#m-table th:nth-child(4) {
+  width: 100px;
+}
+#m-table th:nth-child(5) {
+  width: 170px;
+}
+#m-table th:nth-child(6) {
+  width: 160px;
+}
+#m-table th:nth-child(7) {
+  width: 160px;
+}
+#m-table th:nth-child(8) {
+  width: 130px;
+}
+#m-table th:nth-child(9) {
+  width: 130px;
+}
+#m-table th:nth-child(10) {
+  width: 130px;
+}
+#m-table th:nth-child(11) {
+  width: 200px;
+}
+
+/* 멜로시라 회원 디테일 테이블 */
+.m-detail-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.m-detail-table th,
+.m-detail-table td {
+  border-left: 1px solid #cdcdcd;
+  text-align: center;
+  padding: 8px;
+  border-bottom: none;
+}
+
+.m-detail-table th:first-child,
+.m-detail-table td:first-child {
+  border-left: none;
+}
+
+/* 멜로시라 회원 디테일 테이블 */
+.m-member-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* 멜로시라 회원리스트 상세 테이블 간격 조절 */
+#m-detail-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#m-detail-table th:nth-child(1) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(2) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(3) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(4) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(5) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(6) {
+  width: 120px;
+}
+#m-detail-table th:nth-child(7) {
+  width: 120px;
+}
+
+/* i see you 회차(하단) 테이블 가격 조절 */
+#s-member-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#s-member-table th:nth-child(1) {
+  width: 100px;
+}
+#s-member-table th:nth-child(2) {
+  width: 120px;
+}
+#s-member-table th:nth-child(3) {
+  width: 150px;
+}
+#s-member-table th:nth-child(4) {
+  width: 170px;
+}
+#s-member-table th:nth-child(5) {
+  width: 170px;
+}
+#s-member-table th:nth-child(6) {
+  width: 170px;
+}
+#s-member-table th:nth-child(7) {
+  width: 170px;
+}
+#s-member-table th:nth-child(8) {
+  width: 170px;
+}
+
+/* i see you 회원(상단) 디테일 정보 테이블 가격 조절 */
+#s-detail-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#s-detail-table th:nth-child(1) {
+  width: 200px;
+}
+#s-detail-table th:nth-child(2) {
+  width: 300px;
+}
+#s-detail-table th:nth-child(3) {
+  width: 300px;
+}
+#s-detail-table th:nth-child(4) {
+  width: 300px;
+}
+
+/* i see you 회원(상단) 디테일 정보 테이블 가격 조절 */
+#s-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#s-table th:nth-child(1) {
+  width: 160px;
+}
+#s-table th:nth-child(2) {
+  width: 160px;
+}
+#s-table th:nth-child(3) {
+  width: 160px;
+}
+#s-table th:nth-child(4) {
+  width: 160px;
+}
+#s-table th:nth-child(4) {
+  width: 160px;
+}
+
+@media screen and (max-width: 1199px) {
+  .page-content {
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-content {
+    padding: 40px 40px 40px 40px;
+  }
+}
+
+/* 진행중테이블 호버효과 */
+/* 기본 hover 스타일 */
+.list-group-item:not(.active):hover {
+  background-color: rgba(0, 0, 0, 0.075); /* 호버 시 배경색 */
+  transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 */
+}
+
+/* 테이블 기본 설정 */
+/* table#ongoing-table { */
+/* border-collapse: separate; 중첩된 border 문제 방지 */
+/* border-spacing: 0; 셀 간 간격 제거 */
+/* } */
+
+/* 데이터가 있는 td에만 호버 효과 */
+table#ongoing-table td:hover:not(.no-hover) {
+  background-color: rgba(0, 0, 0, 0.075); /*호버 시 배경색*/
+  cursor: pointer; /* 커서를 포인터로 변경 */
+  transition: background-color 0.3s; /* 부드러운 전환 효과 */
+}
+
+/* td 호버 시 내부 a 태그의 글자 색 변경 */
+table#ongoing-table td:hover:not(.no-hover) a {
+  color: #2f3037; /* 글자 색상 */
+  text-decoration: none; /* 밑줄 제거 */
+  transition: color 0.3s; /* 부드러운 전환 효과 */
+}
+
+/* 1주차, 2주차 ~ 12주차의 td는 호버 효과 제거 */
+table#ongoing-table td.no-hover {
+  background-color: inherit; /* 기본 배경색 유지 */
+  cursor: default; /* 포인터 변경 안 함 */
+}
+
+/* 테이블 기본 border 스타일 */
+table#ongoing-table td {
+  border: 1px solid rgba(0, 0, 0, 0.075); /* 셀 기본 border */
+}
+
+/* 완료 기본 설정 */
+/* 데이터가 있는 td에만 호버 효과 */
+table#finish-table td:hover:not(.no-hover) {
+  background-color: rgba(0, 0, 0, 0.075); /*호버 시 배경색*/
+  cursor: pointer; /* 커서를 포인터로 변경 */
+  transition: background-color 0.3s; /* 부드러운 전환 효과 */
+}
+
+/* td 호버 시 내부 a 태그의 글자 색 변경 */
+table#finish-table td:hover:not(.no-hover) a {
+  color: #2f3037; /* 글자 색상 */
+  text-decoration: none; /* 밑줄 제거 */
+  transition: color 0.3s; /* 부드러운 전환 효과 */
+}
+
+/* 1주차, 2주차 ~ 12주차의 td는 호버 효과 제거 */
+table#finish-table td.no-hover {
+  background-color: inherit; /* 기본 배경색 유지 */
+  cursor: default; /* 포인터 변경 안 함 */
+}
+
+/* td 호버 시 내부 a 태그의 글자 색 변경 */
+/* table.table-bordered td:hover:not(.no-hover) a {
+  color: #2f3037; /* 글자 색상 */
+/* text-decoration: none; 밑줄 제거 */
+/* transition: color 0.3s; 글자 색 전환 효과 */
+/* } */
+
+/* 양자파동기 진행현황 호버효과 */
+.iseeyou-hover:hover {
+  background-color: rgba(0, 0, 0, 0.075); /* 호버 시 배경색 */
+  cursor: pointer; /* 커서를 포인터로 변경 */
+  transition: background-color 0.3s; /* 부드러운 전환 효과 */
+}
+
+/* 테이블 기본 border 스타일 */
+.card-body .table-bordered td {
+  border: 1px solid rgba(0, 0, 0, 0.075); /* 셀 기본 border */
+}
+
+/* 대리점 디테일 하단 회원리스트 간격*/
+#more-list-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#more-list-table th:nth-child(1) {
+  width: 90px;
+}
+#more-list-table th:nth-child(2) {
+  width: 180px;
+}
+#more-list-table th:nth-child(3) {
+  width: 180px;
+}
+#more-list-table th:nth-child(4) {
+  width: 180px;
+}
+#more-list-table th:nth-child(5) {
+  width: 180px;
+}
+#more-list-table th:nth-child(6) {
+  width: 200px;
+}
+
+/* 대리점 상세정보 조회 밑에 회원리스트*/
+#detail-table {
+  table-layout: fixed; /* 고정된 테이블 레이아웃 */
+  width: 100%;
+}
+
+#detail-table th:nth-child(1) {
+  width: 140px;
+}
+#detail-table th:nth-child(2) {
+  width: 160px;
+}
+#detail-table th:nth-child(3) {
+  width: 160px;
+}
+#detail-table th:nth-child(4) {
+  width: 160px;
+}
+#detail-table th:nth-child(5) {
+  width: 160px;
+}
+
+.card-hover:hover {
+  cursor: pointer;
+  background-color: #f7f7f7; /* 호버 시 배경색 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 추가 */
+}
+.card-hover:focus {
+  cursor: pointer;
+  background-color: #e7e7e7; /* 호버 시 배경색 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 추가 */
+}
+
+/* 호버 상태 */
+.btn-light-secondary:hover {
+  color: #000; /* 텍스트 색상 유지 */
+  background-color: #c4c4c4; /* 호버 시 배경색 */
+  border-color: #b0b0b0; /* 호버 시 테두리 색상 */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* 부드러운 박스 그림자 */
+}
+
+/* 포커스 상태 */
+.btn-light-secondary:focus {
+  outline: none; /* 기본 포커스 테두리 제거 */
+  box-shadow: 0 0 0 0.25rem rgba(200, 200, 200, 0.5); /* 포커스 박스 그림자 */
+  border-color: #b0b0b0; /* 포커스 시 테두리 강조 */
+}
+
+/* 클릭(활성화) 상태 */
+.btn-light-secondary:active {
+  color: #000; /* 클릭 시 텍스트 색상 유지 */
+  background-color: #b0b0b0; /* 클릭 시 배경색 */
+  border-color: #9c9c9c; /* 클릭 시 테두리 색상 */
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1); /* 클릭 시 눌린 효과 */
+}
+
+/* 호버 상태 */
+.btn.btn-light-primary:hover {
+  background-color: #acd8bc; /* 호버 시 배경색 */
+  color: #0a0d2a; /* 호버 시 텍스트 색상 */
+  border-color: #acd8bc; /* 호버 시 테두리 색상 */
+  box-shadow: 0 0 5px rgba(0, 128, 75, 0.2); /* 부드러운 박스 그림자 */
+}
+
+/* 포커스 상태 */
+.btn.btn-light-primary:focus {
+  outline: none; /* 기본 포커스 테두리 제거 */
+  background-color: #7fbb94; /* 포커스 시 배경색 */
+  border-color: #7fbb94; /* 포커스 시 테두리 색상 */
+  box-shadow: 0 0 0 0.25rem rgba(72, 180, 97, 0.4); /* 포커스 박스 그림자 */
+}
+
+/* 클릭(활성화) 상태 */
+.btn.btn-light-primary:active {
+  background-color: #3f9c59; /* 클릭 시 배경색 */
+  color: #0a0d2a; /* 클릭 시 텍스트 색상 유지 */
+  border-color: #418d59; /* 클릭 시 테두리 색상 */
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1); /* 눌린 효과 */
+}
+
+/* 클릭 가능한 td */
+.clickable {
+  cursor: pointer;
+  background-color: #a4e1ba;
+  transition: background-color 0.3s eurl(http://gsl-agency.com/melosira-management/all_list)ase;
+}
+
+.clickable:hover {
+  background-color: #cce7d0;
+}
+
+/* 비활성화된 td */
+.disabled {
+  background-color: #d8d8d8;
+  cursor: not-allowed;
+}
+
+.clickable-cell {
+  cursor: pointer;
+  text-align: center; /* 텍스트 정렬 */
+  padding: 10px 0;
+}
+
+/* 기본 hover 효과 */
+.hover-effect {
+  transition: all 0.3s ease; /* 부드러운 애니메이션 */
+}
+
+.hover-effect:hover {
+  text-decoration: underline; /* 밑줄 표시 */
+  cursor: pointer;
+}
+
+/* 멜로시라, 아이씨유 디테일페이지 */
+/* 클릭 가능한 td에만 호버 효과 적용 */
+td.clickable:hover,
+td.hover-enabled:hover {
+  background-color: #a7eba3 !important;
+}
+
+/* 비활성화된 td는 호버 효과 없음 */
+td.disabled {
+  cursor: not-allowed; /* 비활성화된 커서 */
+  background-color: #d8d8d8; /* 고정된 회색 배경 */
+}
+
+.disabled {
+  font-weight: 500;
+}
+.clickable {
+  font-weight: 500;
+}
+
+.hover-enabled {
+  font-weight: 500;
+}
+
+.no-border {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+}
+
+/* notice a태그 호버할때 변화 */
+.clause:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,1 @@
+{"version":1,"defects":{"UserModelTest::testCanGetAllUsers":8},"times":{"UserModelTest::testCanGetAllUsers":0.013,"ExampleDatabaseTest::testModelFindAll":0.001,"ExampleDatabaseTest::testSoftDeleteLeavesRow":0.001,"ExampleSessionTest::testSessionSimple":0,"HealthTest::testIsDefinedAppPath":0,"HealthTest::testBaseUrlHasBeenSet":0.005}}

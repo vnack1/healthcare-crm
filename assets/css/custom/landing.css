@@ -1,0 +1,137 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: Nunito;
+  height: auto;
+  overflow: auto;
+}
+
+#landing-page {
+  height: 100%;
+  overflow-y: auto; /* 페이지가 스크롤 가능하도록 허용 */
+  scroll-snap-type: none; /* 스크롤 스냅 비활성화 */
+}
+
+#landing-page .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#landing-page section {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+/* FAQ 섹션 높이 조정 */
+#faq-section {
+  background-color: #ebebeb;
+  padding-top: 90px;
+  min-height: 100vh; /* 최소 높이는 100vh로 유지 */
+  height: auto; /* 내용에 따라 높이 자동 증가 */
+  transition: all 0.3s ease; /* 높이 변화 시 부드럽게 변경 */
+}
+
+/* FAQ 스타일 */
+.faq-header {
+  border: none;
+  padding: 1.3rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #000;
+  display: flex;
+  align-items: center;
+  background: none;
+}
+
+.faq-header::before {
+  content: "Q";
+  background-color: #02af66;
+  color: white;
+  font-size: 1.4rem;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.faq-body {
+  padding: 2rem 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+  background-color: #fff;
+}
+
+.accordion-button {
+  box-shadow: none !important;
+}
+
+.accordion-header {
+  border-bottom: 1px solid #979797;
+}
+
+/* Top Button 스타일 */
+#topButton {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  z-index: 1000;
+  background-color: #02af66;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* 스크롤 인디케이터 */
+#landing-page .scroll-indicator {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+/* 스크롤 스냅 전체 설정 */
+#landing-page {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+p {
+  font-size: 22px;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.section-subtext {
+  font-size: 1.4rem;
+  color: #6c757d;
+  line-height: 1.8;
+}
